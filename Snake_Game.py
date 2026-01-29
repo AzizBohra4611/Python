@@ -3,10 +3,7 @@ import random
 import os
 
 pygame.mixer.init()
-
 pygame.init()
-
-
 
 # Colors
 white = (255, 255, 255)
@@ -165,4 +162,5 @@ def gameloop():
     pygame.quit()
     quit()
 welcome()
+
 
