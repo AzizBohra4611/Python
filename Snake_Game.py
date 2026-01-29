@@ -24,7 +24,7 @@ bgimg = pygame.transform.scale(bgimg, (screen_width, screen_height)).convert_alp
 
 
 # Game Title
-pygame.display.set_caption("SnakesWithHarry")
+pygame.display.set_caption("Snake Game")
 pygame.display.update()
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 55)
@@ -165,3 +165,4 @@ def gameloop():
     pygame.quit()
     quit()
 welcome()
+
